@@ -238,3 +238,51 @@ footer a:hover {
 }
 
 
+/* Media Queries */
+
+@media screen and (max-width: 1000px){
+  h1 {
+    font-size: 2.4em;
+  /* Header */
+     }
+
+  header div.hero {
+    left: 56%;
+     } 
+  header div.hero h1 {
+    margin-bottom: 20px;
+     }
+
+  /* Section Atmospehere */
+  section.atomospehere article {
+    padding-left: 400px;
+    background-size: 375px auto;
+  }
+}
+
+@media screen and (max-width: 825px) {
+  h1 {
+    font-size: 2.2em;
+    }
+  header {
+      height: 300px;
+      background-image: url(../images/banner_825.jpg);
+    }
+  header div.hero {
+    top: 120px;
+    left: 48%;
+    }
+  section.atmosphere article {
+    padding-left: 325px;
+    background-size: 300px auto;
+    }
+
+  section.how-to blockquote p.quote {
+    font-size: 1.1em;
+    line-height: 1.2;
+    }
+  section.how-to blockquote p.credit {
+    font-size: .85em;
+    p}
+
+}
