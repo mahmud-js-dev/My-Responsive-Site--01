@@ -294,3 +294,16 @@ footer a:hover {
   nav { padding-top: 80px; }
   nav > ul { padding-left: 10px; }
 }
+
+/* Breakpoint- >=625px */
+
+@media screen and (max-width: 625px) {
+  h1 { font-size: 1em; }
+  h3 { margin-bottom: 0; }
+  a.btn { font-size: 0.9em; }
+  /* Header */
+  header { height: 160px; background-image: url(../images/banner_625.jpg); background-position: left top; }
+
+  /* Navigation */
+  nav { position: static; width: auto; padding: 20px 15px; background-color: #4b0a0c; } 
+    }  
