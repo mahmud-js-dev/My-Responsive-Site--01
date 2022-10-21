@@ -278,8 +278,9 @@ footer a:hover {
   a.btn { font-size: 1em; }
 
   /* Header */
+
   header a.logo { width: 145px; height: 60px;  }
-  header div.hero { width: 140px; left: 48%;  }
+  header div.hero { top: 140px; left: 48%; }
 
   /* Section -Main */
 
