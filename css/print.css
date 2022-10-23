@@ -71,16 +71,16 @@ section.atmosphere::before { content:url(../images/photo_lounge_print.jpg); }
 
 section.atmosphere article { width: 40%; position: absolute; top: 40px; left: 425px; }
 
-section. how-to { padding-top: 50px; border-top: 1px solid #ccc; } 
+section.how-to { padding-top: 50px; border-top: 1px solid #ccc; } 
 
-section. how-to aside { width: 25%; float: left; margin: 0 35px 0 0; } 
+section.how-to aside { width: 25%; float: left; margin: 0 35px 0 0; } 
 
 section.how-to div.content img { display: none; }
 
-section. how-to aside:nth-child(1) div.content::before { content: url(../images/photo_seating_print.jpg); }
+section.how-to aside:nth-child(1) div.content::before { content: url(../images/photo_seating_print.jpg); }
 
 
-section. how-to aside:nth-child(2) div.content::before { content:url(../images/photo_lighting_print.jpg); }
+section.how-to aside:nth-child(2) div.content::before { content:url(../images/photo_lighting_print.jpg); }
 
 
 
@@ -124,7 +124,7 @@ section.how-to blockquote p.credit::before {
 
 footer { border-top: 1px solid #ccc; position: relative; min-height: 200px; padding: 20px 0 0 170px ;  }
 
-footer::after { content:url(../images/photo_seating_print.jpg); position: relative; top: 20px; left: 0;  }
+footer::after { content:url(../images/qr_codifydesign.png); position: relative; top: 20px; left: 0;  }
 
 footer a { display: block; margin-top: 15px; }
 
